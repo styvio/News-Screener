@@ -9,5 +9,11 @@
 
 <br/>
 
-## Installation
-```pip install styvio```
+## Usage
+```
+#get_data returns all data for a specific ticker
+overallData = styvio.get_data("MSFT")
+
+#using the key "newsArticle1" returns an object with a variety of information from a specific news article related to the ticker "MSFT"
+newsArticle1 = overallData["newsArticle1"]
+```
